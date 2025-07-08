@@ -1,0 +1,354 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.fa-pull-left {
+  float: left;
+}
+.fa-pull-right {
+  float: right;
+}
+.fa.fa-pull-left {
+  margin-right: .3em;
+}
+.fa.fa-pull-right {
+  margin-left: .3em;
+}
+/* Deprecated as of 4.4.0 */
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fa.pull-left {
+  margin-right: .3em;
+}
+.fa.pull-right {
+  margin-left: .3em;
+}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
+}
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not rd.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#29 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#30 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#31 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#32 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1011): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#33 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 23)
+#34 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1010): array_walk(Array, Object(Closure))
+#35 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#36 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#37 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#38 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#39 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 {main}
+"} 
+[2024-03-22 03:54:19] local.ERROR: Invalid route action: [App\Http\Controllers\DriverController]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\DriverController]. at C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(191): Illuminate\\Routing\\RouteAction::parse('ajax/get_direct...', Array)
+#2 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(172): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Route->__construct(Array, 'ajax/get_direct...', Array)
+#4 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(561): Illuminate\\Routing\\Router->newRoute(Array, 'ajax/get_direct...', Array)
+#5 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(541): Illuminate\\Routing\\Router->createRoute(Array, 'ajax/get_direct...', Array)
+#6 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(159): Illuminate\\Routing\\Router->addRoute(Array, 'ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#7 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->get('ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#8 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(55): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(509): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(35): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\Abdul ...')
+#14 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Abdul ...')
+#15 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Abdul ...')
+#16 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(194): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\Abdul ...')
+#17 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\app\\Providers\\RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\Abdul ...')
+#18 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#19 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#21 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#22 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#23 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#24 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#25 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#26 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#29 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#30 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#31 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#32 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1011): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#33 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 23)
+#34 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1010): array_walk(Array, Object(Closure))
+#35 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#36 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#37 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#38 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#39 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 {main}
+"} 
+[2024-03-22 03:54:21] local.ERROR: Invalid route action: [App\Http\Controllers\DriverController]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\DriverController]. at C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(191): Illuminate\\Routing\\RouteAction::parse('ajax/get_direct...', Array)
+#2 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(172): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Route->__construct(Array, 'ajax/get_direct...', Array)
+#4 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(561): Illuminate\\Routing\\Router->newRoute(Array, 'ajax/get_direct...', Array)
+#5 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(541): Illuminate\\Routing\\Router->createRoute(Array, 'ajax/get_direct...', Array)
+#6 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(159): Illuminate\\Routing\\Router->addRoute(Array, 'ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#7 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->get('ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#8 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(55): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(509): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(35): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\Abdul ...')
+#14 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Abdul ...')
+#15 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Abdul ...')
+#16 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(194): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\Abdul ...')
+#17 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\app\\Providers\\RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\Abdul ...')
+#18 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#19 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#21 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#22 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#23 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#24 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#25 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#26 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#29 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#30 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#31 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#32 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1011): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#33 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 23)
+#34 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1010): array_walk(Array, Object(Closure))
+#35 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#36 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#37 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#38 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#39 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 {main}
+"} 
+[2024-03-22 03:54:21] local.ERROR: Invalid route action: [App\Http\Controllers\DriverController]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\DriverController]. at C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(191): Illuminate\\Routing\\RouteAction::parse('ajax/get_direct...', Array)
+#2 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(172): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Route->__construct(Array, 'ajax/get_direct...', Array)
+#4 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(561): Illuminate\\Routing\\Router->newRoute(Array, 'ajax/get_direct...', Array)
+#5 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(541): Illuminate\\Routing\\Router->createRoute(Array, 'ajax/get_direct...', Array)
+#6 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(159): Illuminate\\Routing\\Router->addRoute(Array, 'ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#7 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->get('ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#8 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(55): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(509): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(35): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\Abdul ...')
+#14 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Abdul ...')
+#15 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Abdul ...')
+#16 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(194): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\Abdul ...')
+#17 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\app\\Providers\\RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\Abdul ...')
+#18 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#19 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#21 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#22 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#23 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#24 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#25 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#26 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#29 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#30 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#31 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#32 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1011): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#33 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#34 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1010): array_walk(Array, Object(Closure))
+#35 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#36 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#37 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#38 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#39 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 {main}
+"} 
+[2024-03-22 03:54:24] local.ERROR: Invalid route action: [App\Http\Controllers\DriverController]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\DriverController]. at C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(191): Illuminate\\Routing\\RouteAction::parse('ajax/get_direct...', Array)
+#2 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(172): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Route->__construct(Array, 'ajax/get_direct...', Array)
+#4 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(561): Illuminate\\Routing\\Router->newRoute(Array, 'ajax/get_direct...', Array)
+#5 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(541): Illuminate\\Routing\\Router->createRoute(Array, 'ajax/get_direct...', Array)
+#6 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(159): Illuminate\\Routing\\Router->addRoute(Array, 'ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#7 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->get('ajax/get_direct...', 'App\\\\Http\\\\Contro...')
+#8 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(55): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(509): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\routes\\web.php(35): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\Abdul ...')
+#14 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Abdul ...')
+#15 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(465): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Abdul ...')
+#16 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(194): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\Abdul ...')
+#17 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\app\\Providers\\RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\Abdul ...')
+#18 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#19 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#21 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#22 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#23 C:\\Users\\Abdul Basir Momand\\Desktop\\baba_company\\vendor\\la

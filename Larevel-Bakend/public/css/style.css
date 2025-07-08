@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a9d8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Global Button Styles */
+.btn {
+    font-family: 'Bahij Zar', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Primary Button */
+.btn-default {
+    background-color: #6c757d; /* Gray */
+}
+
+.btn-default:hover {
+    background-color: #5a6268; /* Darker Gray */
+}
+
+/* Button Focus Effect */
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, .25);
+}
+
+/* Disabled Button */
+.btn:disabled {
+    background-color: #e0e0e0;
+    color: #b5b5b5;
+    cursor: not-allowed;
+}
+
+/* Buttons for submit and reset */
+#submit, #reset {
+    font-family: 'Bahij Zar', sans-serif;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff; /* Blue */
+    color: white;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 16px;
+}
+
+#submit:hover, #reset:hover {
+    background-color: #0056b3; /* Dark Blue */
+}
+
+/* Additional margin */
+#submit, #reset {
+    margin-top: 15px;
+}

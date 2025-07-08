@@ -1,0 +1,132 @@
+/* د باډي ډیزاین */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* شاته رنګین ګردان (gradient) */
+    background: linear-gradient(135deg, #38b6ff, #0066ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* اصلي کانټینر چې د لاګین کارډ به پکې وي */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+}
+
+/* د لاګین کارډ */
+.login-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 30px 25px;
+    text-align: center;
+}
+
+/* سرلیک */
+.login-card h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* د خطا پیغام سټایل */
+.error {
+    color: red;
+    margin-bottom: 15px;
+}
+
+/* فورم ګروپ */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.form-group input:focus {
+    border: 1px solid #007bff;
+}
+
+/* یاد ساتل او پاسورډ هیریدل */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.forgot {
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+}
+.forgot:hover {
+    text-decoration: underline;
+}
+
+/* د لاګین بټن */
+.login-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* د راجستر لینک */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
